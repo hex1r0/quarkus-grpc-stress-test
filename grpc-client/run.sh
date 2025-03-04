@@ -1,0 +1,1 @@
+./mvnw clean package && java -jar target/grpc-client-1.0-SNAPSHOT.jar

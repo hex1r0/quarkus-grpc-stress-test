@@ -1,0 +1,1 @@
+./mvnw clean package && java -XX:+CrashOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError -Xlog:gc -Xmx128m -jar target/grpc-server-vertx-1.0-SNAPSHOT.jar
