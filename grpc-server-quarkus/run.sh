@@ -1,1 +1,1 @@
-./mvnw clean package -Dquarkus.package.jar.type=uber-jar &&  java -XX:+CrashOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError -Xlog:gc -Xmx128m -jar target/grpc-server-quarkus-1.0-SNAPSHOT-runner.jar
+./mvnw clean package -Dquarkus.package.jar.type=uber-jar &&  java -XX:+CrashOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError -Xlog:gc -Xmx512m -jar target/grpc-server-quarkus-1.0-SNAPSHOT-runner.jar
